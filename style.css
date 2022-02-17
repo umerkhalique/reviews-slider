@@ -23,21 +23,105 @@ h1{
     margin-bottom: 10px;
     text-align: center;
     font-weight: bold;
+    letter-spacing: 0.1em;
 }
 .line{
         height: 0.25rem;
         width: 5rem;
-        background: var(--clr-primary-5);
         margin-left: auto;
         margin-right: auto;
         background-color: #47D5FF;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         border-radius: 5px;
 }
 .card{
     width: 500px;
     height: 350px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    box-shadow: 5px 10px #888888;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
+.imgdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.svg{
+    position: absolute;
+  top: 160px;
+  right: 580px;
+  width: 30px;
+  filter: invert(64%) sepia(98%) saturate(591%) hue-rotate(164deg) brightness(103%) contrast(101%);
+}
+.pdiv{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin-bottom: 6px;
+    
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    color: #47D5FF;
+}
+.para{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #626262;
+    font-size: 13px;
+}
+.paradiv{
+    padding: 0px 30px 10px 35px;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+.btn-left, .btn-right{
+    color: hsl(205, 90%, 76%);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.btn-left:hover,
+.btn-right:hover {
+  color: hsl(205, 78%, 60%);
+}
+.random-btn {
+    margin-top: 0.6rem;
+    background:hsl(205, 78%, 60%);
+    color: hsl(0, 0%, 100%);
+    padding: 0.25rem 0.5rem;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    transition: all 0.3s linear;
+    border-color: hsl(205, 78%, 60%);
+    cursor: pointer;
+  }
+  .random-btn:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(205, 78%, 60%);
+  }
