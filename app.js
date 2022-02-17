@@ -49,11 +49,6 @@ function showPerson(person) {
     info.textContent = item.review;
 }
 
-
-
-
-
-
 function prev(){
     currentItem--;
     if (currentItem < 0) {
@@ -61,7 +56,6 @@ function prev(){
     }
     showPerson(currentItem);
   }
-
 
 function next(){
     currentItem++;
@@ -73,5 +67,5 @@ function next(){
 
 
 function random(){
-    console.log('hiiiiiiiiiiiiiiiiii');
+    showPerson(Math.floor(Math.random() * 6))
 }
