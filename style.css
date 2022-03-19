@@ -6,99 +6,101 @@
   box-sizing: border-box;
 }
 
-body{
-    background-color: #E8E8E8;
+body {
+  background-color: #e8e8e8;
 }
 
-.display{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 97vh;
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
 }
-h1{
-    font-family: 'Poppins', sans-serif;
+h1 {
+  font-family: "Poppins", sans-serif;
 }
-.h1{
-    margin-bottom: 10px;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 0.1em;
+.h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.1em;
 }
-.line{
-        height: 0.25rem;
-        width: 5rem;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #47D5FF;
-        margin-bottom: 40px;
-        border-radius: 5px;
+.line {
+  height: 0.25rem;
+  width: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #47d5ff;
+  margin-bottom: 40px;
+  border-radius: 5px;
 }
-.card{
-    width: 500px;
-    height: 350px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+.card {
+  width: 500px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.imgdiv{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
+.imgdiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
-img{
-    width: 100px;
-    border-radius: 50%;
-    margin-top: 30px;
-    margin-bottom: 20px;
+img {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
-.svg{
-    position: absolute;
-  top: 160px;
-  right: 580px;
+.svg {
+  position: absolute;
+  top: 0px;
+  left: 277px;
   width: 30px;
-  filter: invert(64%) sepia(98%) saturate(591%) hue-rotate(164deg) brightness(103%) contrast(101%);
+  filter: invert(64%) sepia(98%) saturate(591%) hue-rotate(164deg)
+    brightness(103%) contrast(101%);
 }
-.pdiv{
-    display: flex;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    margin-bottom: 6px;
-    
+.pdiv {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  margin-bottom: 6px;
 }
-.paragraph{
-    display: flex;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: black;
-    color: #47D5FF;
+.paragraph {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+  color: #47d5ff;
 }
-.para{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    margin-bottom: 6px;
-    color: #626262;
-    font-size: 13px;
+.para {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #626262;
+  font-size: 13px;
 }
-.paradiv{
-    padding: 0px 30px 10px 35px;
+.paradiv {
+  padding: 0px 30px 10px 35px;
 }
-.btn-group{
-    display: flex;
-    justify-content: center;
-    gap: 22px;
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
 }
-.btn-left, .btn-right{
-    color: hsl(205, 90%, 76%);
+.btn-left,
+.btn-right {
+  color: hsl(205, 90%, 76%);
   font-size: 1.25rem;
   background: transparent;
   border-color: transparent;
@@ -111,17 +113,17 @@ img{
   color: hsl(205, 78%, 60%);
 }
 .random-btn {
-    margin-top: 0.6rem;
-    background:hsl(205, 78%, 60%);
-    color: hsl(0, 0%, 100%);
-    padding: 0.25rem 0.5rem;
-    text-transform: uppercase;
-    border-radius: 0.25rem;
-    transition: all 0.3s linear;
-    border-color: hsl(205, 78%, 60%);
-    cursor: pointer;
-  }
-  .random-btn:hover {
-    background: hsl(0, 0%, 100%);
-    color: hsl(205, 78%, 60%);
-  }
+  margin-top: 0.6rem;
+  background: hsl(205, 78%, 60%);
+  color: hsl(0, 0%, 100%);
+  padding: 0.25rem 0.5rem;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  transition: all 0.3s linear;
+  border-color: hsl(205, 78%, 60%);
+  cursor: pointer;
+}
+.random-btn:hover {
+  background: hsl(0, 0%, 100%);
+  color: hsl(205, 78%, 60%);
+}
